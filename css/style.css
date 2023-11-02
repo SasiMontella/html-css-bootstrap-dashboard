@@ -9,3 +9,6 @@
 .text-grey{
     color: grey;
 }
+.line{
+    display: inline;
+}
