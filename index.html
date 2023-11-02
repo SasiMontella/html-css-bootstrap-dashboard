@@ -11,6 +11,7 @@
 
     <!-- Dopo BOOSTRAP collego il mio foglio di stile (NON PRIMA DI BOOTSTRAP!)-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -49,15 +50,116 @@
                                 <h2 class="line">Catalogo Libri</h2>
                           </div>
 
-                          <div class="col-2 line ">
+                          <div class="col-2">
                               <button class="btn btn-sm btn-outline-light bg-primary mt-1" type="button">Aggiungi Libro</button>
                           </div>
                     </div>
               </div>
               
+              <div class="container pt-4 pe-5 mb-2 text-white pb-5"> 
+                <div class="row justify-content-center">
+                    <div class=" col pad-right">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Titolo</th>
+                                    <th scope="col">Data prestito</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-grey">
+                                    <th scope="row">I pilastri della terra</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">I promessi sposi</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class=" fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr class="bg-grey">
+                                    <th scope="row">Il signore degli anelli</th>
+                                    <td>18/10/2023</td>
+                                    <td><span class="badge text-bg-warning text-white">In Prestito</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Harry Potter e la pietra filosofale</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr class="bg-grey">
+                                    <th scope="row">Il codice Da Vinci</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-danger">Non Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Shining</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class="fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr class="bg-grey">
+                                    <th scope="row">La divina commedia</th>
+                                    <td>21/09/2023</td>
+                                    <td><span class="badge text-bg-warning text-white">In Prestito</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Il trono di spade</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr class="bg-grey">
+                                    <th scope="row">Il mondo di Sofia</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-danger">Non Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                    <i class=" fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</th>
+                                    <td>25/07/2023</td>
+                                    <td><span class="badge text-bg-warning text-white">In Prestito</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class="fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr class="bg-grey">
+                                    <th scope="row">Il piccolo principe</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                    <i class=" fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">La storia infinita</th>
+                                    <td>-</td>
+                                    <td><span class="badge text-bg-success">Disponibile</span></td>
+                                    <td><i class=" fa-solid fa-pen dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i>
+                                      <i class=" fa-solid fa-trash dimension-icon border border-3 rounded p-1 border-secondary" style="color: #5e5b5b;"></i></td>
+                                </tr>                      
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>  
   </main>
   <footer>
-
   </footer>  
     
     <!-- lasciarlo in fondo e non toglierlo -->

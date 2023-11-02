@@ -9,6 +9,25 @@
 .text-grey{
     color: grey;
 }
+.col-gray{
+    color: gray;
+}
+.bg-grey{
+    background-color: rgb(243, 237, 237);
+}
 .line{
     display: inline;
+}
+.pad-right{
+    padding-right: 60px;
+}
+.dimension-icon{
+   border: 10px 10px;
+}
+footer{
+    background-color: #212529;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;   
 }
