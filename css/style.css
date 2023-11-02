@@ -28,3 +28,6 @@ footer{
     background-color: #212529;
     height: 100px;
 }
+.pad-left{
+    padding-left: 0;
+}
